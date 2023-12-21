@@ -33,7 +33,7 @@ const Navbar = (props: Props) => {
         </div>
         <p>Book a meeting</p>
       </div>
-      { toggle ? <XMarkIcon onClick={()=> settoggle(false)} className='h-10 w-10 text-white' /> : <Bars2Icon onClick={()=> settoggle(true)} className='h-10 w-10 text-white' />}
+      <div className='xl:hidden'>{ toggle ? <XMarkIcon onClick={()=> settoggle(false)} className='h-10 w-10 text-white' /> : <Bars2Icon onClick={()=> settoggle(true)} className='h-10 w-10 text-white' />}</div>
     </div>
   )
 }
