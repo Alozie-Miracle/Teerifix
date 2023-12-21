@@ -1,12 +1,16 @@
+import About from "@/components/About";
+import Footer from "@/components/Footer";
+import Hero from '@/components/Hero'
+import Team from "@/components/Team";
 
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <h2>
-
-      Let's build teerifix
-      </h2>
+    <main className="w-full h-full">
+      <Hero />
+      <About />
+      <Team />
+      <Footer />
     </main>
   )
 }

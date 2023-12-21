@@ -6,8 +6,6 @@
 .Hero {
     background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
 }
 
 
