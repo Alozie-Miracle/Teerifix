@@ -15,7 +15,7 @@ type Props = {
 
 const Service = ({img, title}: Props) => {
     return (
-        <div className='w-full md:w-[40%] h-[300px] bg-white shadow-2xl rounded-md pb-2'>
+        <div className='w-full md:w-[40%] h-[300px] hover:scale-105 transition-all ease-in-out duration-300 cursor-pointer bg-white shadow-2xl rounded-md pb-2'>
             <Image src={img} alt='staffs' className='w-full h-[85%] rounded-t-md object-fill' />
             <h3 className='text-md text-center mt-5'>{title}</h3>
         </div>
